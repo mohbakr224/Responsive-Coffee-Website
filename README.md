@@ -1,37 +1,35 @@
-# ☕ Coffee Street - Responsive Coffee Website
+# ☕ Coffee Shop Website
 
-A modern, fully responsive coffee shop website designed to provide an immersive experience for coffee lovers. Built using **HTML, CSS, and JavaScript**, this project features a clean UI, smooth animations, and a mobile-first design approach.
+A sleek, fully responsive landing page for a modern coffee house. This project features a multi-section layout including a product menu, testimonial slider, image gallery, and a functional contact form.
 ---
 
 ## ✨ Features
 
--   **Fully Responsive:** Optimized for desktops, tablets, and mobile devices.
--   **Modern UI/UX:** Aesthetic design with a focus on typography and high-quality imagery.
--   **Smooth Scroll:** Navigation links that scroll smoothly to respective sections.
--   **Scroll Reveal Animations:** Content appears gracefully as you scroll down.
--   **Glassmorphism Effects:** Modern styling using CSS backdrop filters.
--   **Interactive Menu:** Clean display of coffee products with pricing and descriptions.
--   **Newsletter Subscription:** A functional UI section for user engagement.
+-   **Interactive Hero Section:** Engaging call-to-action buttons with a split-screen design.
+-   **Dynamic Testimonial Slider:** Powered by **Swiper.js** with autoplay and parallax effects.
+-   **Responsive Navigation:** A custom mobile "off-canvas" sidebar menu that triggers via a toggle button and closes when clicking outside.
+-   **Comprehensive Menu:** Categorized display for Hot/Cold Beverages, Desserts, and Special Combos.
+-   **Interactive Gallery:** A 3-column grid layout with hover-to-zoom effects on coffee imagery.
+-   **Modern Styling:** Utilizes CSS variables for easy theme management and Google Fonts (Poppins & Miniver) for a premium look.
+-   **Contact Form & Info:** Integrated contact details with FontAwesome icons and a styled user inquiry form.
 
 ---
 
 ## 🛠️ Technologies Used
 
--   **HTML5:** Semantic structure.
--   **CSS3:** Custom styling, Flexbox, Grid, and Animations.
--   **JavaScript:** Interactivity, mobile menu toggling, and scroll effects.
--   **ScrollReveal JS:** For scroll-triggered animations.
--   **Remix Icons / FontAwesome:** For high-quality vector icons.
--   **Google Fonts:** Specialized typography for a premium feel.
+-   **HTML5:** Semantic markup for SEO and accessibility.
+-   **CSS3:** Custom properties (variables), Flexbox, CSS Grid, and Media Queries.
+-   **JavaScript (Vanilla):** Custom logic for the mobile navigation toggle and overlay effects.
+-   **Swiper.js:** For the touch-enabled testimonial carousel.
+-   **Remix Icons & FontAwesome:** For scalable vector iconography.
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-├── assets/
-│   ├── img/          # Product images and backgrounds
-│   ├── css/          # Stylesheets (styles.css)
-│   └── js/           # Main JavaScript (main.js)
-├── index.html        # Main entry point
-└── README.md         # Project documentation
+├── images/               # Project images (Hero, Gallery, Menu items)
+├── index.html            # Main website structure
+├── sytle.css             # Main stylesheet with responsive design
+├── script.js             # Mobile menu and overlay logic
+└── slider.js             # Swiper.js initialization and configuration
